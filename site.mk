@@ -16,10 +16,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	iwinfo \
 	iptables \
-	haveged
+	haveged \
+	joe
 
 
-DEFAULT_GLUON_RELEASE := 0.5.1
+DEFAULT_GLUON_RELEASE := 0.5.1_ae_0.3
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
