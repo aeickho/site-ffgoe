@@ -26,7 +26,7 @@ GLUON_SITE_PACKAGES := \
 	tcpdump-mini \
 	uclibcxx
 
-DEFAULT_GLUON_RELEASE := 0.7_ae25
+DEFAULT_GLUON_RELEASE := 0.7_ae70
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -34,4 +34,4 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
 
 # Languages to include
-GLUON_LANGS ?= de
+GLUON_LANGS ?= de en
