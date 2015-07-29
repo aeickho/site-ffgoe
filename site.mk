@@ -26,7 +26,6 @@ GLUON_SITE_PACKAGES := \
 
 DEFAULT_GLUON_RELEASE := 0.7.exp-$(shell date '+%Y%m%d%H%M')
 
-# Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
