@@ -32,7 +32,8 @@ GLUON_SITE_PACKAGES := \
 	kmod-usb-hid \
 	kmod-usb-net \
 	kmod-usb-net-asix \
-        kmod-usb-net-rtl8152 \
+	kmod-usb-net-rtl8152 \
+	kmod-usb-hid \
 	haveged \
 	iptables \
 	iwinfo
